@@ -1,13 +1,13 @@
 import React from 'react'
 
-const About = ({ title }) => {
+const About = ({    ti }) => {
   return (
     <div>
       {/* Mission Section */}
       <section className="py-16 bg-gray-50">
         <div className="w-full max-w-7xl px-4 md:px-5 mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">{title || 'Our Mission'}</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Mission</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
               We are dedicated to fostering innovation and creating positive change in communities worldwide through technology and collaboration.
             </p>
@@ -58,26 +58,18 @@ const About = ({ title }) => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             <div className="text-center">
-              <img src="https://ui-avatars.com/api/?name=John+Doe&background=random" alt="Team Member" className="w-32 h-32 rounded-full mx-auto mb-4" />
+              <img src="https://i.pravatar.cc/300?img=12" alt="John Doe" 
+                className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" />
               <h3 className="text-xl font-semibold">John Doe</h3>
               <p className="text-gray-600">CEO & Founder</p>
             </div>
             <div className="text-center">
-              <img src="https://ui-avatars.com/api/?name=Jane+Smith&background=random" alt="Team Member" className="w-32 h-32 rounded-full mx-auto mb-4" />
-              <h3 className="text-xl font-semibold">Jane Smith</h3>
-              <p className="text-gray-600">CTO</p>
-            </div>
-            <div className="text-center">
-              <img src="https://ui-avatars.com/api/?name=Mike+Johnson&background=random" alt="Team Member" className="w-32 h-32 rounded-full mx-auto mb-4" />
+              <img src="https://i.pravatar.cc/300?img=33" alt="Mike Johnson" 
+                className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" />
               <h3 className="text-xl font-semibold">Mike Johnson</h3>
               <p className="text-gray-600">Lead Developer</p>
-            </div>
-            <div className="text-center">
-              <img src="https://ui-avatars.com/api/?name=Sarah+Williams&background=random" alt="Team Member" className="w-32 h-32 rounded-full mx-auto mb-4" />
-              <h3 className="text-xl font-semibold">Sarah Williams</h3>
-              <p className="text-gray-600">Product Manager</p>
             </div>
           </div>
         </div>
